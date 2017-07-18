@@ -1,0 +1,147 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+	background-color: #D6D6D6;
+}
+h5, p{
+	margin: 0px;
+}
+.caja-total{
+	border-bottom: 1px solid rgba(150, 150, 150, 0.2);
+}
+/**FIRST SECTION**/
+.first-section{
+	background-color: #D6FFDA;
+	height: 111px;
+}
+.perfil-usuario, .perfil-conversaciones{
+	margin-top: 40px;
+}
+.perfil-propio, .perfil-conversaciones{
+	background-color: #FFAFAF;
+	height: 71px;
+}
+.col.m4{
+	padding: 0px;
+}
+.perfil-propio img{
+	width: 70%;
+	margin: 15px 0px 0px 8px;
+}
+/**chats lado izquierdo**/
+.perfil-chat-foto img{
+	width: 100%;
+	display: inline-block;
+}
+.chat-wssp a{
+	display: inline-block;
+	margin: 0px;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	
+}
+.chat-wssp p{
+	margin: 0px;
+	font-size: 12px;
+}
+.perfil-conversacion img{
+	width: 100%;
+	margin: 15px 0 0 8px;
+
+}
+.perfil-conversacion h3, .perfil-conversacion h5{
+	margin: 0px;
+}
+.perfil-conversacion h3{
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 22px;
+}
+.perfil-conversacion h5{
+	font-size: 8px;
+	display: inline-block;
+}
+.icon-conver{
+	text-align: right;
+}
+.ajuste-caja{
+	margin-top: 25px;
+}
+.chat{
+	background-image: url('../img/chat-panel-bg.png');
+	background-size: cover;
+	background-position: bottom;
+	height: 291px;
+}
+
+/**pantalla chat**/
+.burbu{
+	text-align: right;
+}
+.burbuja-propia{
+	background-color: #CFEB99;
+	margin-right: 3px;
+	border-radius: 5px;
+}
+.burbuja-propia p{
+	padding: 5px;
+	font-size: 11px;
+}
+.burbuja-uno, .burbuja-dos{
+	background-color: #FFFFFF;
+	margin-left: 3px;
+	border-radius: 5px;
+}
+.burbuja-uno h5, .burbuja-dos h5{
+	padding: 5px 5px 0 5px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.burbuja-uno p, .burbuja-dos p{
+	padding: 0px 5px 5px 5px;
+	font-size: 11px;
+}
+.burbuja-uno h5{
+	color: #EBEE01;
+}
+.burbuja-dos h5{
+	color: #E20000;
+}
+/**INPUT CHAT**/
+.input-chat{
+	background-color: #E7E7E7;
+	padding: 2px;
+}
+.input-chat .input-c{
+	width: 93% !important; /*si ponía todo a clase de materialize me iba cambiar todos mis inputs, sé que no se debe hacer*/
+	margin: 5px 5px 5px 3px !important;	
+	background-color: white !important;
+	border-radius: 5px !important;
+	border-bottom: none !important;
+}
+.fa-paperclip{
+	margin-left: 5px;
+}
+::-webkit-input-placeholder { 
+	color: black;
+	padding-left: 5px;
+	font-family: 'Open Sans', sans-serif; 
+} /* WebKit */
+:-moz-placeholder { 
+	color: black;
+	padding-left: 5px;
+	font-family: 'Open Sans', sans-serif; 
+} /* Firefox 18- */
+::-moz-placeholder { 
+	color: black;
+	padding-left: 5px;
+	font-family: 'Open Sans', sans-serif; 
+} /* Firefox 19+ */
+:-ms-input-placeholder { 
+	color: black;
+	padding-left: 5px;
+	font-family: 'Open Sans', sans-serif; 
+} /* IE 10+ */
